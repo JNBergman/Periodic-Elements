@@ -13,6 +13,7 @@
 		3F7A5B5625E8055A0048A3A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A5B5525E8055A0048A3A4 /* Preview Assets.xcassets */; };
 		3F7A5B6125E8055B0048A3A4 /* Periodic_ElementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A5B6025E8055B0048A3A4 /* Periodic_ElementsTests.swift */; };
 		3F7A5B6C25E8055B0048A3A4 /* Periodic_ElementsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A5B6B25E8055B0048A3A4 /* Periodic_ElementsUITests.swift */; };
+		3F7A5B7D25E807A00048A3A4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A5B7C25E807A00048A3A4 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F7A5B6725E8055B0048A3A4 /* Periodic ElementsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Periodic ElementsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7A5B6B25E8055B0048A3A4 /* Periodic_ElementsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Periodic_ElementsUITests.swift; sourceTree = "<group>"; };
 		3F7A5B6D25E8055B0048A3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7A5B7C25E807A00048A3A4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				3F7A5B5025E805560048A3A4 /* ContentView.swift */,
 				3F7A5B5225E8055A0048A3A4 /* Assets.xcassets */,
 				3F7A5B5725E8055A0048A3A4 /* Info.plist */,
+				3F7A5B7C25E807A00048A3A4 /* SwiftyJSON.swift */,
 				3F7A5B5425E8055A0048A3A4 /* Preview Content */,
 			);
 			path = "Periodic Elements";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7A5B7D25E807A00048A3A4 /* SwiftyJSON.swift in Sources */,
 				3F7A5B5125E805560048A3A4 /* ContentView.swift in Sources */,
 				3F7A5B4F25E805560048A3A4 /* Periodic_ElementsApp.swift in Sources */,
 			);
